@@ -27,10 +27,5 @@
 
             return this.Json(lastModified);
         }
-
-        public IActionResult Food()
-        {
-            return this.Redirect("https://1drv.ms/w/s!Akh_WeVgv7PQhYJx1an-aLM3H5ZZ7w");
-        }
     }
 }
