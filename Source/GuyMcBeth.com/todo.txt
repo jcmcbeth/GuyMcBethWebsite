@@ -1,0 +1,32 @@
+﻿* get SSL certificate
+	* automatic redirect
+	* what will this do for analytics/search engine
+	* HSTS HTTP Strict Transport Security
+	* https://support.google.com/webmasters/answer/6073543?hl=en
+* setup sitemap
+    * create static sitemap
+	* figure out how to make dynamic site map
+	* update on google
+	* update on bing
+* update meta tags
+	* description rich snippets were it makes sense
+	* social media meta tags
+		* facebook
+		* twitter
+		* google
+		* check diagnostics tools
+	* dynamic meta tag generation?
+	* article tags?
+	* unique description tags
+* figure out how to do web deploy with database migrations
+* figure out how to filter my ip address from google analytics
+* figure out best way to bundling minification
+	* switch to gulp?
+* Reduce the number of uneeded files being published
+	* project config files
+	* bower lib files
+** setup robots.txt
+* about page?
+* contact page?
+** unique titles for pages
+** alt tags for all images

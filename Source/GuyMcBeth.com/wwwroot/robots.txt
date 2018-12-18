@@ -1,0 +1,3 @@
+﻿User-agent: *
+
+Sitemap: https://guymcbeth.com/sitemap.xml
