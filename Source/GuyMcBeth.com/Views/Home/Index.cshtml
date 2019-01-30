@@ -47,15 +47,13 @@
 
         function displayAge() {
             var age = getElapsedDuration(birthdate);
-            var adjustedAge = getElapsedDuration(dueDate);
 
-            console.log(adjustedAge);
-
-
-            var elapsedMessage = "It has been " +
-                pluralize(Math.floor(age.asDays()), "day") + ", " +
+            var elapsedMessage = "It has been " +           
+                pluralize(Math.floor(age.asYears()), "year") + ", " +
+                pluralize(age.months(), "month") + ", " +
+                pluralize(age.days(), "day") + ", " +
                 pluralize(age.hours(), "hour") + ", and " +
-                pluralize(age.minutes(), "minute") + " since I was born! That makes me " + pluralize(age.months(), "month") + " and " + pluralize(age.weeks(), "week") + " old! My adjusted age is " + pluralize(adjustedAge.months(), "month") + " and " + pluralize(adjustedAge.weeks(), "week") + ".";
+                pluralize(age.minutes(), "minute") + " since i've been born.";
 
             $("#elapsed").text(elapsedMessage);
         }
