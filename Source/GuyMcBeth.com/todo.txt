@@ -4,7 +4,7 @@
 	* HSTS HTTP Strict Transport Security
 	* https://support.google.com/webmasters/answer/6073543?hl=en
 * setup sitemap
-    * create static sitemap
+    * DONE create static sitemap
 	* figure out how to make dynamic site map
 	* update on google
 	* update on bing
@@ -25,8 +25,8 @@
 * Reduce the number of uneeded files being published
 	* project config files
 	* bower lib files
-** setup robots.txt
+* DONE setup robots.txt
 * about page?
-* contact page?
-** unique titles for pages
-** alt tags for all images
+* DONE contact page?
+* DONE unique titles for pages
+* DONE alt tags for all images
