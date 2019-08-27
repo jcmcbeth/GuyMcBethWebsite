@@ -1,4 +1,4 @@
-﻿* get SSL certificate
+﻿* DONE get SSL certificate
 	* automatic redirect
 	* what will this do for analytics/search engine
 	* HSTS HTTP Strict Transport Security
@@ -6,7 +6,7 @@
 * setup sitemap
     * DONE create static sitemap
 	* figure out how to make dynamic site map
-	* update on google
+	* DONE update on google
 	* update on bing
 * update meta tags
 	* description rich snippets were it makes sense
@@ -26,7 +26,6 @@
 	* project config files
 	* bower lib files
 * DONE setup robots.txt
-* about page?
 * DONE contact page?
 * DONE unique titles for pages
 * DONE alt tags for all images
